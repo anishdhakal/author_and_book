@@ -1,4 +1,6 @@
 using namespace std;
+# ifndef AUTHOR_H
+# define AUTHOR_H
 
 class Author{
 private:
@@ -15,3 +17,4 @@ public:
     string toString();
 
 };
+# endif

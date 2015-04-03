@@ -1,10 +1,13 @@
 #include "author.h"
+# ifndef BOOK_H
+# define BOOK_H
 
 using namespace std;
 
 class Book{
 private:
     string name;
+protected:
     int price;
     int quantity;
     Author author;
@@ -18,6 +21,5 @@ public:
     string getName();
     Author getAuthor();
     string toString();
-
-
 };
+# endif
